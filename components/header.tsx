@@ -26,7 +26,7 @@ export default function Header() {
         <div className="w-full max-w-7xl px-4 sm:px-8 lg:px-20 flex items-center justify-between">
           {/* Logo - Always visible */}
           <div className="flex items-center">
-            <Image src="/images/octarine-brand.png" alt="Octarine" width={140} height={40} className="h-6 w-auto" />
+            <Image src="/images/octarine-brand.png" alt="Octarine" width={140} height={40} className="h-6 w-auto brightness-0" />
           </div>
 
           {/* Desktop Navigation */}
